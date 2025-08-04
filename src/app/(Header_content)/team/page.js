@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import CardDemo from '@/components/ui/cards-demo-2';
+import SeraTeamCard from '@/components/ui/sera-team-card';
 import { Users, Award, Target, Zap } from 'lucide-react';
 
 const TeamPage = () => {
@@ -160,7 +160,7 @@ const TeamPage = () => {
                 }`}
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <CardDemo member={member} />
+                <SeraTeamCard member={member} />
               </div>
             ))}
           </div>
