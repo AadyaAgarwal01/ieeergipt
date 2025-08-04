@@ -15,7 +15,7 @@ const SeraTeamCard = ({ member }) => {
           <img
             src={member["Profile Image Link"]}
             alt={member.Name}
-            className="w-24 h-24 rounded-full object-cover border-4 border-white/20 group-hover:border-blue-400/50 transition-all duration-300"
+            className="w-32 h-32 rounded-full object-cover border-4 border-white/20 group-hover:border-blue-400/50 transition-all duration-300"
           />
           <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
@@ -37,9 +37,9 @@ const SeraTeamCard = ({ member }) => {
               href={member.Linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 bg-blue-600/20 hover:bg-blue-600/40 rounded-full border border-blue-500/30 hover:border-blue-400/50 transition-all duration-300 hover:scale-110"
+              className="p-1.5 bg-blue-600/20 hover:bg-blue-600/40 rounded-full border border-blue-500/30 hover:border-blue-400/50 transition-all duration-300 hover:scale-110"
             >
-              <Linkedin className="w-5 h-5 text-blue-400 hover:text-blue-300" />
+              <Linkedin className="w-4 h-4 text-blue-400 hover:text-blue-300" />
             </a>
           )}
           {member.Github && (
@@ -47,9 +47,9 @@ const SeraTeamCard = ({ member }) => {
               href={member.Github}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-2 bg-gray-600/20 hover:bg-gray-600/40 rounded-full border border-gray-500/30 hover:border-gray-400/50 transition-all duration-300 hover:scale-110"
+              className="p-1.5 bg-gray-600/20 hover:bg-gray-600/40 rounded-full border border-gray-500/30 hover:border-gray-400/50 transition-all duration-300 hover:scale-110"
             >
-              <Github className="w-5 h-5 text-gray-400 hover:text-gray-300" />
+              <Github className="w-4 h-4 text-gray-400 hover:text-gray-300" />
             </a>
           )}
         </div>
