@@ -1,0 +1,67 @@
+{
+  "officeBearer": [
+    {
+      "name": "Dr. Rajesh Kumar",
+      "post": "Faculty Advisor",
+      "linkedin": "https://linkedin.com/in/rajesh-kumar",
+      "message": "As the Faculty Advisor for IEEE RGIPT Student Branch, I am committed to fostering innovation and technical excellence among our students. Our branch serves as a platform for students to explore cutting-edge technologies, develop leadership skills, and contribute to the advancement of engineering and technology.",
+      "image": "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg"
+    },
+    {
+      "name": "Arjun Sharma",
+      "post": "Chairperson",
+      "linkedin": "https://linkedin.com/in/arjun-sharma",
+      "message": "Leading IEEE RGIPT has been an incredible journey of growth and learning. Our focus is on creating opportunities for students to engage with industry professionals, participate in technical competitions, and develop skills that will shape their future careers in technology.",
+      "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
+    },
+    {
+      "name": "Priya Patel",
+      "post": "Vice Chairperson",
+      "linkedin": "https://linkedin.com/in/priya-patel",
+      "message": "As Vice Chairperson, I work closely with our team to organize workshops, seminars, and technical events that bridge the gap between academic learning and industry requirements. We believe in empowering every student to reach their full potential.",
+      "image": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg"
+    },
+    {
+      "name": "Rohit Singh",
+      "post": "Secretary",
+      "linkedin": "https://linkedin.com/in/rohit-singh",
+      "message": "Managing the administrative aspects of IEEE RGIPT has taught me valuable organizational skills. I ensure smooth coordination between different committees and maintain effective communication with all stakeholders to achieve our collective goals.",
+      "image": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg"
+    },
+    {
+      "name": "Sneha Gupta",
+      "post": "Treasurer",
+      "linkedin": "https://linkedin.com/in/sneha-gupta",
+      "message": "Financial management and resource allocation are crucial for the success of our initiatives. I work to ensure transparent financial practices and optimal utilization of resources to maximize the impact of our programs and events.",
+      "image": "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg"
+    },
+    {
+      "name": "Vikash Kumar",
+      "post": "Technical Head",
+      "linkedin": "https://linkedin.com/in/vikash-kumar",
+      "message": "Leading the technical initiatives at IEEE RGIPT, I focus on organizing coding competitions, hackathons, and technical workshops. Our goal is to keep students updated with the latest technological trends and provide hands-on experience.",
+      "image": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg"
+    },
+    {
+      "name": "Ananya Reddy",
+      "post": "Event Coordinator",
+      "linkedin": "https://linkedin.com/in/ananya-reddy",
+      "message": "Coordinating events for IEEE RGIPT has been an amazing experience. From technical symposiums to guest lectures, I ensure every event is well-planned and executed, providing valuable learning opportunities for our student community.",
+      "image": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg"
+    },
+    {
+      "name": "Karthik Nair",
+      "post": "Web Development Lead",
+      "linkedin": "https://linkedin.com/in/karthik-nair",
+      "message": "As the Web Development Lead, I oversee our digital presence and work on creating innovative web solutions. I believe in leveraging technology to enhance student engagement and streamline our branch operations.",
+      "image": "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg"
+    },
+    {
+      "name": "Meera Joshi",
+      "post": "Public Relations Officer",
+      "linkedin": "https://linkedin.com/in/meera-joshi",
+      "message": "Building strong relationships with industry partners, alumni, and other student organizations is my primary focus. I work to enhance IEEE RGIPT's visibility and create networking opportunities for our members.",
+      "image": "https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg"
+    }
+  ]
+}
