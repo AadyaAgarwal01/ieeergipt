@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import ExpandableCardDemo from '@/components/ui/expandable-card-demo-grid';
+import CardDemo from '@/components/ui/cards-demo-2';
 import { Users, Award, Target, Zap } from 'lucide-react';
 
 const TeamPage = () => {
@@ -147,11 +147,23 @@ const TeamPage = () => {
               Office Bearers
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              Click on any team member to learn more about their role and message
+              Click on any team member card to visit their LinkedIn profile
             </p>
           </div>
 
-          <ExpandableCardDemo cards={teamMembers} />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {teamMembers.map((member, index) => (
+              <div
+                key={member.name}
+                className={`transform transition-all duration-700 ${
+                  isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+                }`}
+                style={{ animationDelay: `${index * 100}ms` }}
+              >
+                <CardDemo member={member} />
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Call to Action */}
