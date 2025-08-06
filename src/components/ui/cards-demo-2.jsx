@@ -2,21 +2,9 @@
 import { cn } from "@/lib/utils";
 
 export default function CardDemo({ member }) {
-  // Extract LinkedIn username from URL for profile picture
-  const getLinkedInProfilePic = (linkedinUrl) => {
-    try {
-      // Extract username from LinkedIn URL
-      const match = linkedinUrl.match(/linkedin\.com\/in\/([^\/]+)/);
-      if (match) {
-        const username = match[1];
-        // LinkedIn profile pictures are not directly accessible via public API
-        // Using a placeholder service or fallback to member image
-        return member.image || `https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg`;
-      }
-      return member.image || `https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg`;
-    } catch (error) {
-      return member.image || `https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg`;
-    }
+  // Get profile image with fallback
+  const getProfileImage = () => {
+    return member["Profile Image Link"] || "/images/team/default-avatar.jpg";
   };
 
   const handleLinkedInClick = () => {
@@ -40,12 +28,12 @@ export default function CardDemo({ member }) {
             height="100"
             width="100"
             alt="Avatar"
-            src={getLinkedInProfilePic(member.linkedin)}
+            src={getProfileImage()}
             className="h-10 w-10 rounded-full border-2 object-cover border-white"
           />
           <div className="flex flex-col">
             <p className="font-normal text-base text-gray-50 relative z-10">
-              {member.name}
+              {member.Name}
             </p>
             <p className="text-sm text-blue-300 hover:text-blue-200 transition-colors">
               LinkedIn Profile
@@ -54,10 +42,10 @@ export default function CardDemo({ member }) {
         </div>
         <div className="text content">
           <h1 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10">
-            {member.post}
+            {member.Position}
           </h1>
           <p className="font-normal text-sm text-gray-50 relative z-10 my-4 line-clamp-4">
-            {member.message}
+            {member.Message || "Dedicated member of IEEE RGIPT Student Branch, contributing to technical excellence and innovation."}
           </p>
         </div>
       </div>

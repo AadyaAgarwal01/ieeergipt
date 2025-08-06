@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import SeraTeamCard from '@/components/ui/sera-team-card';
+import CardDemo from '@/components/ui/cards-demo-2';
 import { Users, Award, Target, Zap } from 'lucide-react';
 
 const TeamPage = () => {
@@ -154,13 +154,13 @@ const TeamPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {teamMembers.map((member, index) => (
               <div
-                key={member.name}
+                key={member.Name}
                 className={`transform transition-all duration-700 ${
                   isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
                 }`}
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <SeraTeamCard member={member} />
+                <CardDemo member={member} />
               </div>
             ))}
           </div>

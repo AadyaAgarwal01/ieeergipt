@@ -5,63 +5,63 @@
       "Position": "Faculty Advisor",
       "Linkedin": "https://linkedin.com/in/rajesh-kumar",
       "Github": "https://github.com/rajesh-kumar",
-      "Profile Image Link": "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg"
+      "Profile Image Link": "/images/team/rajesh-kumar.jpg"
     },
     {
       "Name": "Arjun Sharma",
       "Position": "Chairperson",
       "Linkedin": "https://linkedin.com/in/arjun-sharma",
       "Github": "https://github.com/arjun-sharma",
-      "Profile Image Link": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
+      "Profile Image Link": "/images/team/arjun-sharma.jpg"
     },
     {
       "Name": "Priya Patel",
       "Position": "Vice Chairperson",
       "Linkedin": "https://linkedin.com/in/priya-patel",
       "Github": "https://github.com/priya-patel",
-      "Profile Image Link": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg"
+      "Profile Image Link": "/images/team/priya-patel.jpg"
     },
     {
       "Name": "Rohit Singh",
       "Position": "Secretary",
       "Linkedin": "https://linkedin.com/in/rohit-singh",
       "Github": "https://github.com/rohit-singh",
-      "Profile Image Link": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg"
+      "Profile Image Link": "/images/team/rohit-singh.jpg"
     },
     {
       "Name": "Sneha Gupta",
       "Position": "Treasurer",
       "Linkedin": "https://linkedin.com/in/sneha-gupta",
       "Github": "https://github.com/sneha-gupta",
-      "Profile Image Link": "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg"
+      "Profile Image Link": "/images/team/sneha-gupta.jpg"
     },
     {
       "Name": "Vikash Kumar",
       "Position": "Technical Head",
       "Linkedin": "https://linkedin.com/in/vikash-kumar",
       "Github": "https://github.com/vikash-kumar",
-      "Profile Image Link": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg"
+      "Profile Image Link": "/images/team/vikash-kumar.jpg"
     },
     {
       "Name": "Ananya Reddy",
       "Position": "Event Coordinator",
       "Linkedin": "https://linkedin.com/in/ananya-reddy",
       "Github": "https://github.com/ananya-reddy",
-      "Profile Image Link": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg"
+      "Profile Image Link": "/images/team/ananya-reddy.jpg"
     },
     {
       "Name": "Karthik Nair",
       "Position": "Web Development Lead",
       "Linkedin": "https://linkedin.com/in/karthik-nair",
       "Github": "https://github.com/karthik-nair",
-      "Profile Image Link": "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg"
+      "Profile Image Link": "/images/team/karthik-nair.jpg"
     },
     {
       "Name": "Meera Joshi",
       "Position": "Public Relations Officer",
       "Linkedin": "https://linkedin.com/in/meera-joshi",
       "Github": "https://github.com/meera-joshi",
-      "Profile Image Link": "https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg"
+      "Profile Image Link": "/images/team/meera-joshi.jpg"
     }
   ]
 }
