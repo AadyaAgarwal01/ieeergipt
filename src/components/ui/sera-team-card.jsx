@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 const SeraTeamCard = ({ member }) => {
   return (
@@ -40,6 +40,14 @@ const SeraTeamCard = ({ member }) => {
               className="p-1.5 bg-blue-600/20 hover:bg-blue-600/40 rounded-full border border-blue-500/30 hover:border-blue-400/50 transition-all duration-300 hover:scale-110"
             >
               <Linkedin className="w-4 h-4 text-blue-400 hover:text-blue-300" />
+            </a>
+          )}
+          {member.Email && (
+            <a
+              href={`mailto:${member.Email}`}
+              className="p-1.5 bg-red-600/20 hover:bg-red-600/40 rounded-full border border-red-500/30 hover:border-red-400/50 transition-all duration-300 hover:scale-110"
+            >
+              <Mail className="w-4 h-4 text-red-400 hover:text-red-300" />
             </a>
           )}
           {member.Github && (
