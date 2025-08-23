@@ -49,8 +49,6 @@ const Footer = () => {
     { label: 'Workshop', href: '/workshop' },
     { label: 'Leaderboard', href: '/leaderboard' },
     { label: 'Our Team', href: '/team' },
-    { label: 'Contact Us', href: '/contact_us' },
-    { label: 'Alumni', href: '/alumni' },
   ];
 
   const resources = [

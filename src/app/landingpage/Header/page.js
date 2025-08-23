@@ -42,14 +42,6 @@ export function NavbarDemo() {
         name: "About Us",
         link: "/about_us"
     },
-    {
-        name: "Alumni",
-        link: "/alumni",
-    },
-    {
-        name:"Contact Us",
-        link: "/contact_us"
-    }
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

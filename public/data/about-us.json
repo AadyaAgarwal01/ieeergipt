@@ -1,0 +1,165 @@
+{
+  "hero": {
+    "title": "About IEEE RGIPT",
+    "subtitle": "Student Branch",
+    "description": "Advancing technology for humanity through innovation, education, and collaboration at Rajiv Gandhi Institute of Petroleum Technology."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "To foster technological innovation and professional development among students while building a strong community of future engineers and technologists.",
+    "points": [
+      "Promote technical excellence through workshops and seminars",
+      "Provide networking opportunities with industry professionals",
+      "Encourage research and development in emerging technologies",
+      "Build leadership skills through student-led initiatives"
+    ]
+  },
+  "vision": {
+    "title": "Our Vision",
+    "description": "To be the leading student organization that bridges the gap between academic learning and industry requirements, creating globally competent engineers."
+  },
+  "history": {
+    "title": "Our Journey",
+    "description": "IEEE RGIPT Student Branch was established to create a platform for students to explore, learn, and excel in various fields of engineering and technology.",
+    "milestones": [
+      {
+        "year": "2018",
+        "title": "Foundation",
+        "description": "IEEE Student Branch established at RGIPT"
+      },
+      {
+        "year": "2019",
+        "title": "First Workshop Series",
+        "description": "Launched technical workshop series for students"
+      },
+      {
+        "year": "2020",
+        "title": "Digital Transformation",
+        "description": "Adapted to online events during pandemic"
+      },
+      {
+        "year": "2021",
+        "title": "KodeKurrent Launch",
+        "description": "Introduced our flagship hackathon event"
+      },
+      {
+        "year": "2022",
+        "title": "Industry Partnerships",
+        "description": "Established partnerships with leading tech companies"
+      },
+      {
+        "year": "2023",
+        "title": "SkillUp Series",
+        "description": "Launched comprehensive skill development programs"
+      }
+    ]
+  },
+  "activities": {
+    "title": "What We Do",
+    "description": "Our diverse range of activities caters to different interests and skill levels",
+    "categories": [
+      {
+        "title": "Technical Workshops",
+        "description": "Hands-on sessions covering latest technologies like AI/ML, Web Development, Mobile App Development, and more.",
+        "icon": "🛠️"
+      },
+      {
+        "title": "Competitive Programming",
+        "description": "Regular coding contests and DSA workshops to enhance problem-solving skills.",
+        "icon": "💻"
+      },
+      {
+        "title": "Hackathons",
+        "description": "Multi-day coding competitions where students build innovative solutions to real-world problems.",
+        "icon": "🏆"
+      },
+      {
+        "title": "Industry Talks",
+        "description": "Sessions with industry experts sharing insights about current trends and career opportunities.",
+        "icon": "🎤"
+      },
+      {
+        "title": "Research Projects",
+        "description": "Collaborative research initiatives in emerging fields of technology.",
+        "icon": "🔬"
+      },
+      {
+        "title": "Networking Events",
+        "description": "Opportunities to connect with alumni, industry professionals, and fellow students.",
+        "icon": "🤝"
+      }
+    ]
+  },
+  "achievements": {
+    "title": "Our Achievements",
+    "stats": [
+      {
+        "number": "500+",
+        "label": "Active Members",
+        "description": "Students actively participating in our programs"
+      },
+      {
+        "number": "50+",
+        "label": "Events Organized",
+        "description": "Technical workshops, seminars, and competitions"
+      },
+      {
+        "number": "25+",
+        "label": "Industry Partners",
+        "description": "Companies collaborating with us for events and internships"
+      },
+      {
+        "number": "100+",
+        "label": "Projects Completed",
+        "description": "Student projects mentored and completed successfully"
+      }
+    ]
+  },
+  "values": {
+    "title": "Our Core Values",
+    "items": [
+      {
+        "title": "Innovation",
+        "description": "Encouraging creative thinking and novel solutions to complex problems.",
+        "icon": "💡"
+      },
+      {
+        "title": "Excellence",
+        "description": "Striving for the highest standards in all our activities and initiatives.",
+        "icon": "⭐"
+      },
+      {
+        "title": "Collaboration",
+        "description": "Working together to achieve common goals and support each other's growth.",
+        "icon": "🤝"
+      },
+      {
+        "title": "Learning",
+        "description": "Continuous learning and adaptation to stay current with technological advances.",
+        "icon": "📚"
+      },
+      {
+        "title": "Leadership",
+        "description": "Developing leadership skills and taking initiative in driving positive change.",
+        "icon": "👑"
+      },
+      {
+        "title": "Integrity",
+        "description": "Maintaining ethical standards and transparency in all our endeavors.",
+        "icon": "🛡️"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Ready to join our community or have questions about our activities?",
+    "email": "ieee_sb@rgipt.ac.in",
+    "phone": "+91 7870304944",
+    "address": "RGIPT, Jais, Amethi, UP, India",
+    "socialLinks": {
+      "linkedin": "https://linkedin.com/company/ieee-rgipt",
+      "instagram": "https://instagram.com/ieee_rgipt",
+      "twitter": "https://twitter.com/ieee_rgipt"
+    }
+  }
+}
