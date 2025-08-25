@@ -167,7 +167,8 @@ const AboutUsPage = () => {
             </p>
           </div>
 
-          <div className="relative">
+          {/* Desktop Timeline */}
+          <div className="hidden md:block relative">
             {/* Timeline Line */}
             <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-blue-500 to-purple-500 rounded-full"></div>
             
@@ -198,6 +199,42 @@ const AboutUsPage = () => {
                   </div>
                   
                   <div className="w-5/12"></div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Mobile Timeline */}
+          <div className="md:hidden relative">
+            {/* Mobile Timeline Line */}
+            <div className="absolute left-6 top-0 w-1 h-full bg-gradient-to-b from-blue-500 to-purple-500 rounded-full"></div>
+            
+            <div className="space-y-8">
+              {aboutData.history.milestones.map((milestone, index) => (
+                <div
+                  key={index}
+                  className="flex items-start gap-6"
+                  onTouchStart={() => setActiveTimeline(index)}
+                >
+                  {/* Timeline Node */}
+                  <div className="relative z-10 mt-2">
+                    <div className={`w-6 h-6 rounded-full border-4 transition-all duration-300 ${
+                      activeTimeline === index 
+                        ? 'bg-purple-500 border-purple-300 scale-125' 
+                        : 'bg-blue-500 border-blue-300'
+                    }`}></div>
+                  </div>
+                  
+                  {/* Content */}
+                  <div className="flex-1">
+                    <div className={`bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-500 ${
+                      activeTimeline === index ? 'scale-105 shadow-2xl shadow-purple-500/20' : ''
+                    }`}>
+                      <div className="text-xl font-bold text-blue-400 mb-2">{milestone.year}</div>
+                      <h4 className="text-lg font-semibold text-white mb-3">{milestone.title}</h4>
+                      <p className="text-gray-300 text-sm leading-relaxed">{milestone.description}</p>
+                    </div>
+                  </div>
                 </div>
               ))}
             </div>
