@@ -146,7 +146,7 @@ export default function UnderDevelopment() {
   //   bg-gradient-to-br pt-40 from-blue-900 via-purple-900 to-indigo-900
 
   return (
-    <div className="min-h-screen  overflow-clip w-full bg-gradient-to-br pt-40 from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center">
+    <div className="min-h-screen  overflow-clip w-full bg-gradient-to-br pt-40 from-slate-900 via-blue-900 to-cyan-900 flex items-center justify-center">
       <div
         className={`text-center transform transition-all duration-1000 ${
           isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
@@ -229,31 +229,31 @@ export default function UnderDevelopment() {
                 ⚛
               </div>
             </div>
-
+              className="absolute -top-8 -right-6 text-cyan-400 text-sm animate-bounce font-mono"
             <div
-              className="absolute -bottom-2 -right-6 w-7 h-7 bg-green-500 rounded-lg animate-bounce transform -rotate-12"
+              className="absolute -bottom-2 -right-6 w-7 h-7 bg-teal-500 rounded-lg animate-bounce transform -rotate-12"
               style={{ animationDelay: "1.2s" }}
             >
               <div className="w-full h-full flex items-center justify-center text-white font-bold text-xs">
-                CSS
+              className="absolute -bottom-4 -left-6 text-teal-400 text-lg animate-bounce font-mono"
               </div>
             </div>
 
             <div
-              className="absolute -bottom-4 -left-4 w-5 h-5 bg-red-500 rounded-full animate-bounce"
-              style={{ animationDelay: "1.6s" }}
+              className="absolute -bottom-4 -left-4 w-5 h-5 bg-cyan-500 rounded-full animate-bounce"
+              className="absolute -bottom-6 -right-8 text-blue-400 text-sm animate-bounce font-mono"
             >
               <div className="w-full h-full flex items-center justify-center text-white font-bold text-xs">
                 H
               </div>
             </div>
-
+              className="absolute top-6 -right-12 text-cyan-400 text-xs animate-bounce font-mono"
             {/* Orbiting elements */}
             <div
               className="absolute inset-0 animate-spin"
               style={{ animationDuration: "8s" }}
             >
-              <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 w-3 h-3 bg-purple-400 rounded-full animate-pulse"></div>
+              className="absolute bottom-8 -left-10 text-teal-400 text-xs animate-bounce font-mono"
               <div className="absolute top-1/2 -right-8 transform -translate-y-1/2 w-2 h-2 bg-pink-400 rounded-full animate-pulse"></div>
               <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 w-3 h-3 bg-cyan-400 rounded-full animate-pulse"></div>
               <div className="absolute top-1/2 -left-8 transform -translate-y-1/2 w-2 h-2 bg-orange-400 rounded-full animate-pulse"></div>
@@ -313,7 +313,7 @@ export default function UnderDevelopment() {
         <div className="w-80 max-w-full mx-auto mb-8">
           <div className="bg-gray-700 rounded-full h-2 overflow-hidden">
             <div
-              className="bg-gradient-to-r from-blue-500 to-purple-500 h-full rounded-full animate-pulse"
+              className="bg-gradient-to-r from-cyan-500 to-blue-500 h-full rounded-full animate-pulse"
               style={{ width: "65%" }}
             ></div>
           </div>
@@ -371,7 +371,7 @@ export default function UnderDevelopment() {
             progress!
           </p>
           <div className="flex justify-center space-x-4">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors duration-300 transform hover:scale-105">
+            <button className="bg-cyan-600 hover:bg-cyan-700 text-white px-4 py-2 rounded-lg transition-colors duration-300 transform hover:scale-105">
               Notify Me
             </button>
             <button className="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg transition-colors duration-300 transform hover:scale-105">

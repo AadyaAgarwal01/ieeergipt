@@ -70,7 +70,7 @@ const Footer = () => {
       whileInView="visible"
       viewport={{ once: true }}
       variants={containerVariants}
-      className="bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white pt-12 pb-6 border-t-2 border-[#d69e9e] px-4 sm:px-6 lg:px-8"
+      className="bg-gradient-to-br from-slate-900 via-blue-900 to-cyan-900 text-white pt-12 pb-6 border-t-2 border-cyan-400 px-4 sm:px-6 lg:px-8"
     >
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-8">
@@ -115,26 +115,26 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-3 text-sm">
               <li className="flex items-center">
-                <PhoneIcon className="h-5 w-5 mr-2 text-purple-400" />
+                <PhoneIcon className="h-5 w-5 mr-2 text-cyan-400" />
                 +91 7870304944
               </li>
               <li className="flex items-center">
-                <MailIcon className="h-5 w-5 mr-2 text-purple-400" />
+                <MailIcon className="h-5 w-5 mr-2 text-cyan-400" />
                 ieee_sb@rgipt.ac.in
               </li>
               <li className="flex items-center">
-                <LocationIcon className="h-5 w-5 mr-2 text-purple-400" />
+                <LocationIcon className="h-5 w-5 mr-2 text-cyan-400" />
                 RGIPT, Jais, Amethi, UP, India
               </li>
               <li className="flex items-center">
-                <WhatsAppIcon className="h-5 w-5 mr-2 text-purple-400" />
+                <WhatsAppIcon className="h-5 w-5 mr-2 text-cyan-400" />
                 +91 7870304944
               </li>
             </ul>
           </motion.div>
         </div>
 
-        <div className="border-t border-purple-600 pt-6 text-center text-sm text-gray-400">
+        <div className="border-t border-cyan-600 pt-6 text-center text-sm text-gray-400">
           &copy; {new Date().getFullYear()} IEEE RGIPT. All rights reserved.
         </div>
       </div>

@@ -136,7 +136,7 @@ export function TimelineDemo() {
     },
   ];
   return (
-    <div className="relative w-full bg-gradient-to-r from-[#404371] to-[#780831] overflow-clip">
+    <div className="relative w-full bg-gradient-to-r from-slate-800 to-cyan-800 overflow-clip">
       <Timeline data={data} />
     </div>
   );

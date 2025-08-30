@@ -32,28 +32,28 @@ const TeamPage = () => {
       icon: Users,
       number: "50+",
       label: "Active Members",
-      gradient: "from-blue-500 to-purple-500"
+      gradient: "from-cyan-500 to-blue-500"
     },
     {
       id: 2,
       icon: Award,
       number: "25+",
       label: "Events Organized",
-      gradient: "from-purple-500 to-pink-500"
+      gradient: "from-blue-500 to-teal-500"
     },
     {
       id: 3,
       icon: Target,
       number: "15+",
       label: "Technical Workshops",
-      gradient: "from-pink-500 to-red-500"
+      gradient: "from-teal-500 to-cyan-500"
     },
     {
       id: 4,
       icon: Zap,
       number: "100+",
       label: "Projects Completed",
-      gradient: "from-red-500 to-orange-500"
+      gradient: "from-cyan-500 to-blue-600"
     }
   ];
 
@@ -70,12 +70,12 @@ const TeamPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-cyan-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse animation-delay-2000"></div>
-        <div className="absolute top-1/3 left-1/4 w-60 h-60 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-pulse animation-delay-4000"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-cyan-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse animation-delay-2000"></div>
+        <div className="absolute top-1/3 left-1/4 w-60 h-60 bg-teal-500 rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-pulse animation-delay-4000"></div>
       </div>
 
       {/* Floating Particles */}
@@ -99,7 +99,7 @@ const TeamPage = () => {
         }`}>
           <h1 className="text-5xl mt-10 md:text-6xl font-bold mb-6">
             <span className="text-white">Our </span>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 animate-gradient-x">Team</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400 animate-gradient-x">Team</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Meet the dedicated individuals who drive innovation and excellence at IEEE RGIPT Student Branch
@@ -176,7 +176,7 @@ const TeamPage = () => {
               Interested in becoming part of IEEE RGIPT? We're always looking for passionate students 
               who want to contribute to the tech community and develop their leadership skills.
             </p>
-            <button className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-purple-500/25">
+            <button className="group relative px-8 py-4 bg-gradient-to-r from-cyan-600 to-blue-600 text-white font-semibold rounded-xl hover:from-cyan-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-cyan-500/25">
               <span className="relative z-10 flex items-center justify-center">
                 Get Involved
                 <Users size={20} className="ml-2" />

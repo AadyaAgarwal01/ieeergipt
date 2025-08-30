@@ -148,17 +148,17 @@ const AnimatedLeaderboard = () => {
   }
 
   return (
-    <div className="min-h-screen pt-28 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 p-6">
+    <div className="min-h-screen pt-28 bg-gradient-to-br from-slate-900 via-blue-900 to-cyan-900 p-6">
       {/* Subtle Background Effect */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-10"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-10"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-cyan-500 rounded-full mix-blend-multiply filter blur-xl opacity-10"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-10"></div>
       </div>
 
       <div className="relative max-w-6xl mx-auto">
         {/* Clean Header */}
         <div className="text-center mb-12">
-          <h1 className="text-6xl font-bold bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 bg-clip-text text-transparent mb-4">
+          <h1 className="text-6xl font-bold bg-gradient-to-r from-cyan-400 via-blue-500 to-teal-600 bg-clip-text text-transparent mb-4">
             CodeNex Leaderboard
           </h1>
           <p className="text-xl text-gray-300">Ranked by Performance & Speed</p>
@@ -172,7 +172,7 @@ const AnimatedLeaderboard = () => {
                 key={filter}
                 onClick={() => setSelectedFilter(filter)}
                 className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${selectedFilter === filter
-                    ? 'bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-lg'
+                    ? 'bg-gradient-to-r from-cyan-500 to-blue-500 text-white shadow-lg'
                     : 'bg-white/10 text-gray-300 hover:bg-white/20 backdrop-blur-sm'
                   }`}
               >
@@ -187,7 +187,7 @@ const AnimatedLeaderboard = () => {
               placeholder="Search username..."
               value={searchUser}
               onChange={(e) => setSearchUser(e.target.value)}
-              className="px-6 py-3 pl-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all duration-300 w-80"
+              className="px-6 py-3 pl-12 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition-all duration-300 w-80"
             />
             <Globe className="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" />
           </div>
@@ -197,8 +197,8 @@ const AnimatedLeaderboard = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 hover:bg-white/10 transition-all duration-300">
             <div className="flex items-center gap-4">
-              <div className="p-3 bg-blue-500/20 rounded-xl">
-                <Users className="w-6 h-6 text-blue-400" />
+              <div className="p-3 bg-cyan-500/20 rounded-xl">
+                <Users className="w-6 h-6 text-cyan-400" />
               </div>
               <div>
                 <div className="text-2xl font-bold text-white">{filteredData.length}</div>
@@ -209,8 +209,8 @@ const AnimatedLeaderboard = () => {
 
           <div className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 hover:bg-white/10 transition-all duration-300">
             <div className="flex items-center gap-4">
-              <div className="p-3 bg-green-500/20 rounded-xl">
-                <Target className="w-6 h-6 text-green-400" />
+              <div className="p-3 bg-blue-500/20 rounded-xl">
+                <Target className="w-6 h-6 text-blue-400" />
               </div>
               <div>
                 <div className="text-2xl font-bold text-white">
@@ -223,8 +223,8 @@ const AnimatedLeaderboard = () => {
 
           <div className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 hover:bg-white/10 transition-all duration-300">
             <div className="flex items-center gap-4">
-              <div className="p-3 bg-purple-500/20 rounded-xl">
-                <Timer className="w-6 h-6 text-purple-400" />
+              <div className="p-3 bg-teal-500/20 rounded-xl">
+                <Timer className="w-6 h-6 text-teal-400" />
               </div>
               <div>
                 <div className="text-2xl font-bold text-white">
