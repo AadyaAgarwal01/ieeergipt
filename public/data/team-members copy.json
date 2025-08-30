@@ -1,0 +1,367 @@
+{
+  "organizationStructure": {
+    "executiveBoard": [
+      {
+        "Name": "Md Faizan Siddiqui",
+        "Position": "Chairperson",
+        "Email": "",
+        "Linkedin": "https://www.linkedin.com/in/mohammad-faizan-siddiqui-422455255/",
+        "Github": "",
+        "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQF-s7vBQ_vgEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1718210472985?e=1757548800&v=beta&t=27w46vAE9PjXyKwS_HzUiousuibOc6GdfmBWETSnyWI"
+      },
+      {
+        "Name": "Gourav Verma",
+        "Position": "Vice Chairperson",
+        "Email": "",
+        "Linkedin": "",
+        "Github": "",
+        "Profile Image Link": "https://media.licdn.com/dms/image/v2/D4D03AQHi-hGXDagylg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696359964885?e=1757548800&v=beta&t=koMrL-qEH7N5-_EDlGZUiMJ32wNCFTjj9733GWDCZbQ"
+      },
+      {
+        "Name": "Abhijeet Jadhav",
+        "Position": "Secretary",
+        "Email": "",
+        "Linkedin": "",
+        "Github": "",
+        "Profile Image Link": "https://media.licdn.com/dms/image/v2/D4D03AQEsyudoTaQ8rQ/profile-displayphoto-scale_400_400/B4DZgpEjOAGgAg-/0/1753035716274?e=1757548800&v=beta&t=9M--rmpuShXgxcOYL2XvOeVk3fwXBrlQj9hroBMQetw"
+      },
+      {
+        "Name": "Rajanya Srivastava",
+        "Position": "Secretary",
+        "Email": "",
+        "Linkedin": "",
+        "Github": "",
+        "Profile Image Link": ""
+      },
+      {
+        "Name": "Kunal Kumar",
+        "Position": "Joint-Secretary",
+        "Email": "",
+        "Linkedin": "",
+        "Github": "",
+        "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQEfUawu65t-CQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729706900403?e=1757548800&v=beta&t=gKfmDrSIF7JNN1LBzIf18e6Qt3rEOyFyEKsowFH_ByE"
+      },
+      {
+        "Name": "Aditi Sikder",
+        "Position": "Joint-Secretary",
+        "Email": "",
+        "Linkedin": "",
+        "Github": "",
+        "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQGG_ypXrEKwQw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721651797002?e=1757548800&v=beta&t=NaBXpfF-jwnzBARTJYu01cyo2RQBzopkHkMYXEG_ehs"
+      },
+      {
+        "Name": "Jay Kumar Sinha",
+        "Position": "Joint-Secretary",
+        "Email": "",
+        "Linkedin": "",
+        "Github": "",
+        "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQEpULFkgbsIDg/profile-displayphoto-shrink_400_400/B56ZVnklyGHEAo-/0/1741199400642?e=1757548800&v=beta&t=F2hZwK8mhrtkJfJxvvq62ZPpsiL2UKCkEbOuLTQ2HpY"
+      }
+    ],
+    "financeTeam": [
+      {
+        "Name": "Vijit Singh",
+        "Position": "Treasurer",
+        "Email": "",
+        "Linkedin": "",
+        "Github": "",
+        "Profile Image Link": "data/images/vijit_singh.png"
+      },
+      {
+        "Name": "Raghav Kalra",
+        "Position": "Treasurer",
+        "Email": "",
+        "Linkedin": "",
+        "Github": "",
+        "Profile Image Link": "https://media.licdn.com/dms/image/v2/D4D03AQEd1OWFyp1BxQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1684386364764?e=1757548800&v=beta&t=_U-8D56Gxj3Eo0RqcourZOPMVOfRxjtaYXNsHvLmLZc"
+      },
+      {
+        "Name": "Ojasva Pratap Singh",
+        "Position": "Treasurer",
+        "Email": "",
+        "Linkedin": "",
+        "Github": "",
+        "Profile Image Link": "https://media.licdn.com/dms/image/v2/D4E03AQHrhYkpYgzp0A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729090666731?e=1757548800&v=beta&t=MZgkT68h2p2pgxSHB9KqCkw1FfIFLoQrbx3pIqqAkJ0"
+      },
+      {
+        "Name": "Karan Pratap Singh",
+        "Position": "Head, Audit and Reporting",
+        "Email": "",
+        "Linkedin": "",
+        "Github": "",
+        "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQHnE5g4RUmb9w/profile-displayphoto-shrink_400_400/B56ZVCl4m0GQAg-/0/1740578983845?e=1757548800&v=beta&t=7J9d4EG0S9B4yE1I9UobAkz-qAT4QOtpCR7akNHm_6A"
+      },
+      {
+        "Name": "Aishwary Mittal",
+        "Position": "Head, Audit and Reporting",
+        "Email": "",
+        "Linkedin": "",
+        "Github": "",
+        "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5635AQEtXLiJDGh8UA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1707892516840?e=1755100800&v=beta&t=9dxb90xV5JUDEzc5pVQt8pvyljOb_UnWKjpq31yeLzs"
+      }
+    ],
+    "technicalTeams": {
+      "webDevelopmentTeam": [
+        {
+          "Name": "Nihal Pandey",
+          "Position": "Webmaster",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQFrHzKNRIa9yw/profile-displayphoto-scale_400_400/B56Zf9OsQjHoAg-/0/1752300179024?e=1757548800&v=beta&t=Op19EnBhUEleY-ntY7VH0XHd2xJoEEIDJa3AXfCWWGg"
+        },
+        {
+          "Name": "Rishab Ray",
+          "Position": "Webmaster",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": ""
+        }
+        
+      ],
+      "computerSociety": [
+        {
+          "Name": "Nihal Pandey",
+          "Position": "Secretary, Computer Society",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQFrHzKNRIa9yw/profile-displayphoto-scale_400_400/B56Zf9OsQjHoAg-/0/1752300179024?e=1757548800&v=beta&t=Op19EnBhUEleY-ntY7VH0XHd2xJoEEIDJa3AXfCWWGg"
+        },
+        {
+          "Name": "Vaibhav Mishra",
+          "Position": "Head, Computer Society",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D4E03AQEJYD1v0U0UeQ/profile-displayphoto-scale_400_400/B4EZgWvCPwGoAg-/0/1752728088309?e=1757548800&v=beta&t=Q29hqL9vKtgWM7MFkseTvCV7C3pUI3yDrlQJgBzTfr4"
+        },
+        {
+          "Name": "Aditya Bhattacharya",
+          "Position": "Head, Computer Society",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQGNGc-8rRgswg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725510926695?e=1757548800&v=beta&t=herLPzrhBk5dYceWIu2gtUnUGW1GMd0Anfz4HP8V4ko"
+        },
+        {
+          "Name": "Anandsagar Gaikwad",
+          "Position": "Head, Computer Society",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQG41fR9mxuGng/profile-displayphoto-shrink_400_400/B56ZUJa0gvHoAg-/0/1739619781445?e=1757548800&v=beta&t=yh-uUl7p3wS8zlMmDmQGdvluuy-bVnJl-mXSx5wncTg"
+        },
+        {
+          "Name": "Aditya Pandey",
+          "Position": "Head, Computer Society",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": ""
+        }
+      ],
+      "roboticsAndAutomationSociety": [
+        {
+          "Name": "Soham Jadhav",
+          "Position": "Secretary, Robotics and Automation Society",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D4D03AQHZ1CFd9r0fzg/profile-displayphoto-scale_400_400/B4DZhnQD8MHsAg-/0/1754078922162?e=1757548800&v=beta&t=F2DBNCo6Dtz1SiaQtw7wfWXcrO0rJyUpMsPOIXUfTz8"
+        },
+        {
+          "Name": "Shivam Chaturvedi",
+          "Position": "Head, Robotics and Automation Society",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D4D03AQHgDFK8BMiu2A/profile-displayphoto-scale_400_400/B4DZg6wHl_HwAk-/0/1753332351682?e=1757548800&v=beta&t=yHAlk0Lvql6ceikrBwr9nmAriYVk7nHfceKzkBf-B6Q"
+        },
+        {
+          "Name": "Akhileshwar Pratap Singh",
+          "Position": "Head, Robotics and Automation Society",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQFC8OrEigSbsg/profile-displayphoto-scale_400_400/B56Zg4xDRXHUAg-/0/1753299041087?e=1757548800&v=beta&t=vQGkdEMviQUopAz2_Rad7UqqdfQXsPGaaPzs-ipOHGo"
+        },
+        {
+          "Name": "Raushan Kumar Singh",
+          "Position": "Head, Robotics and Automation Society",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQHSWlSoenRJMQ/profile-displayphoto-shrink_400_400/B56ZVnz9ZmHEAo-/0/1741203430999?e=1757548800&v=beta&t=xTvLmS3DPNpMMT-vBoKinrr61z_ZyCL3EhsDN-BZFrI"
+        },
+        {
+          "Name": "Rishabh Tomar",
+          "Position": "Head, Robotics and Automation Society",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D4D03AQHQBzQIT_uWqQ/profile-displayphoto-shrink_400_400/B4DZXO_jhNHsAg-/0/1742934523005?e=1757548800&v=beta&t=sQYUHVE2FXB5errsbRZn1Ei-oLcQ9BqPgEp6e1AbgYY"
+        }
+      ]
+    },
+    "operationalTeams": {
+      "collaborationAndMediaTeam": [
+        {
+          "Name": "Maana Ajmera",
+          "Position": "Head, Collaboration and Media",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D4D03AQEnzQDwUDNZBQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1732007486200?e=1757548800&v=beta&t=Hr0Hh8y1doSuCS6pyGBTNszSp1CjO94UwOmo7O47ui4"
+        },
+        {
+          "Name": "Golla Kavya",
+          "Position": "Head, Collaboration and Media",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQFYV957-YiVIw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709213523756?e=1757548800&v=beta&t=T9slpXzZOH2TOITFyJyf-A8dqblIUsAdkvjm0pwighE"
+        },
+        {
+          "Name": "Ayush Sharma",
+          "Position": "Head, Collaboration and Media",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D4D03AQG0DSsMc5-7uQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727098873415?e=1757548800&v=beta&t=NflWm70yf2yEf-OIzQiOZW21FxkmD1iKeMu18XGlyvo"
+        }
+      ],
+      "eventManagementTeam": [
+        {
+          "Name": "Maanvi Mishra",
+          "Position": "Head, Event Management",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D4D03AQHFNnbuICmiAQ/profile-displayphoto-shrink_400_400/B4DZeIegiAGYAg-/0/1750341403319?e=1757548800&v=beta&t=HRXBd0d3Rl6u5OrcouRg_JEQ3LRF7z7InAd4zObvS2M"
+        },
+        {
+          "Name": "Prabhat Kushwaha",
+          "Position": "Head, Event Management",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQGuW1hlYNjnuQ/profile-displayphoto-shrink_400_400/B56ZUDQsyAGQAg-/0/1739516465888?e=1757548800&v=beta&t=XosIJt8QT4Qu2YT84w6o_VN-ckKBzWeYSWy51zMv3wY"
+        },
+        {
+          "Name": "Gargi Kedia",
+          "Position": "Head, Event Management",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQEC0ocEHIVPiw/profile-displayphoto-shrink_400_400/B56ZVWm5zZGsAg-/0/1740914795100?e=1757548800&v=beta&t=xinqPgTnveiyQZWCeOHYpcGHYWpRegWIJFwedoXGVOE"
+        }
+      ],
+      "operationsTeam": [
+        {
+          "Name": "Akash Yadav",
+          "Position": "Head, Operations Team",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQFyU78Wa7Jp8Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1703220784143?e=1757548800&v=beta&t=rpQYkWbWfkZQlZuCqA7HyMIWRlbSzRxq0YC_Pma57jQ"
+        },
+        {
+          "Name": "Aarsh Patel",
+          "Position": "Head, Operations Team",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5635AQHP6rioT-3lyA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1738245750152?e=1755104400&v=beta&t=OMe0gl2sc_h78U9bZIoWAaayrFxmnxbaI3sALqkYVLk"
+        },
+        {
+          "Name": "Prashant Kushwaha",
+          "Position": "Head, Operations Team",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D4D03AQHZEvliqpc4MA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1693630469777?e=1757548800&v=beta&t=1UsrdT0vz2OMokFKTHCtp689dbAjrWrbk2UJgUjb8BE"
+        },
+        {
+          "Name": "Priyanshu Kumar",
+          "Position": "Head, Operations Team",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": ""
+        },
+        {
+          "Name": "Rajesh Yadav",
+          "Position": "Head, Operations Team",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": ""
+        }
+      ]
+    },
+    "creativeTeams": {
+      "editorialTeam": [
+        {
+          "Name": "Chhavi Bhatt",
+          "Position": "Head, Editorial Team",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQHYEUvMww5AwQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1727871464275?e=1757548800&v=beta&t=qHDZgKwjXQbuO989q0DX1cgEhUki8shjQkdS_eF3hZM"
+        },
+        {
+          "Name": "Anshita Singh",
+          "Position": "Head, Editorial Team",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQHgjHmErdv_lQ/profile-displayphoto-shrink_400_400/B56ZX1d0zIGUAo-/0/1743579992476?e=1757548800&v=beta&t=QbamwnO5KihXCvEDFn0FzZtpKXd2W9MC-JlfbxeQmp0"
+        },
+        {
+          "Name": "Mouli",
+          "Position": "Head, Editorial Team",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQF2Xcaid6Sixg/profile-displayphoto-scale_400_400/B56ZfLf6HAHQAg-/0/1751465829777?e=1757548800&v=beta&t=6E8IaeWwvd26VyUkLgLnl8JqVZoWoq1LpngDFHsWxp0"
+        }
+      ],
+      "designingTeam": [
+        {
+          "Name": "Shreya Singh",
+          "Position": "Head, Designing Team",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        },
+        {
+          "Name": "Jay Kumar Sinha",
+          "Position": "Head, Designing Team",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "https://media.licdn.com/dms/image/v2/D5603AQEpULFkgbsIDg/profile-displayphoto-shrink_400_400/B56ZVnklyGHEAo-/0/1741199400642?e=1757548800&v=beta&t=F2hZwK8mhrtkJfJxvvq62ZPpsiL2UKCkEbOuLTQ2HpY"
+        },
+        {
+          "Name": "Gauri Maurya",
+          "Position": "Head, Designing Team",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": "Crown"
+        },
+        {
+          "Name": "Ankit Raj",
+          "Position": "Head, Designing Team",
+          "Email": "",
+          "Linkedin": "",
+          "Github": "",
+          "Profile Image Link": ""
+        }
+      ]
+    }
+  }
+}
