@@ -10,10 +10,10 @@ function SplashCursor({
   PRESSURE = 0.1,
   PRESSURE_ITERATIONS = 20,
   CURL = 3,
-  SPLAT_RADIUS = 0.2,
-  SPLAT_FORCE = 6000,
+  SPLAT_RADIUS = 0.05,
+  SPLAT_FORCE = 10000,
   SHADING = true,
-  COLOR_UPDATE_SPEED = 10,
+  COLOR_UPDATE_SPEED = 5,
   BACK_COLOR = { r: 0.5, g: 0, b: 0 },
   TRANSPARENT = true
 }) {

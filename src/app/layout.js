@@ -6,6 +6,7 @@ import CanvasCursor from "@/components/ui/canvas-cursor-effect";
 import Footer from "./Footer/page";
 import CanvasCursorWrapper from "./handelningthedesktop/page"; // adjust path accordingly
 import SplashCursor from '@/components/ui/SplashCursor'
+import { SmoothCursor } from "@/components/ui/smooth-cursor";
 
 <SplashCursor />
 
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
 
         {/* <CanvasCursorWrapper></CanvasCursorWrapper> */}
         <SplashCursor />
+        {/* <SmoothCursor /> */}
 
         {/* bg-gradient-to-r from-[#404371] to-[#780831] */}
 
