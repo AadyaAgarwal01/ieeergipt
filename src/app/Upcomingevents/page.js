@@ -47,7 +47,7 @@ const UpcomingHighlights = () => {
     ];
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
+        <div className="min-h-screen bg-slate-900 relative overflow-hidden">
             {/* Animated Background Elements */}
             <div className="absolute inset-0 overflow-hidden">
                 <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
@@ -56,7 +56,7 @@ const UpcomingHighlights = () => {
             </div>
 
             {/* Floating Particles */}
-            {[...Array(20)].map((_, i) => (
+            {/* {[...Array(20)].map((_, i) => (
                 <div
                     key={i}
                     className="absolute w-1 h-1 bg-white rounded-full opacity-30 animate-float"
@@ -67,7 +67,7 @@ const UpcomingHighlights = () => {
                         animationDuration: `${10 + Math.random() * 10}s`
                     }}
                 ></div>
-            ))}
+            ))} */}
 
             <div className="relative z-10 container mx-auto px-6 py-20">
                 {/* Header Section */}
@@ -95,7 +95,7 @@ const UpcomingHighlights = () => {
                                 onMouseLeave={() => setHoveredCard(null)}
                             >
                                 {/* Card Container */}
-                                <div className="relative bg-gradient-to-br from-gray-900/50 to-gray-800/50 backdrop-blur-xl border border-gray-700/50 rounded-2xl p-8 h-full overflow-hidden group-hover:border-gray-600/50 transition-all duration-500 group-hover:shadow-2xl group-hover:shadow-purple-500/20">
+                                <div className="relative bg-gradient-to-br from-gray-900/50 to-gray-800/50 backdrop-blur-xl border border-gray-700/50 rounded-2xl p-8 h-full overflow-hidden group-hover:border-gray-600/50 transition-all duration-150 group-hover:shadow-2xl group-hover:shadow-purple-500/20">
 
                                     {/* Animated Background Gradient */}
                                     <div className={`absolute inset-0 bg-gradient-to-br ${event.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500`}></div>

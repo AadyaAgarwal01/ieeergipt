@@ -39,6 +39,10 @@ export function NavbarDemo() {
         link: "/workshop",
     },
     {
+        name: "Achievements",
+        link: "/achievements"
+    },
+    {
         name: "About Us",
         link: "/about_us"
     },

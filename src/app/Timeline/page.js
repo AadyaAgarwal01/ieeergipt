@@ -13,7 +13,7 @@ export function TimelineDemo() {
         <div>
           <p
             className="mb-8 text-xs font-serif bg-white bg-clip-text text-transparent md:text-sm dark:text-neutral-200">
-          The IEEE CS WORKSHOP 2.0 series was a group of training sessions designed to help students improve their knowledge and skills in important areas of computer science.It included hand on practices on the domains like CP and DSA followed by WEB DEVELOPMENT and OPEN SOURCE & GITHUB SESSIONS . Furthermore,workshops sessions in fields like AI & ML, AR & VR introduced students to the latest technologies and how they are used in the modern world. Thereafter, APP DEVELOPMENT workshop focused on teaching the essential steps for app creation.
+          The IEEE CS Workshop 2.0 series was a group of training sessions designed to help students improve their knowledge and skills in important areas of computer science. It included hand on practices on the domains like Competitive Programming and Data Structures and Algorithms, followed by Web & App Development and Open Source, Git and Github Sessions. Furthermore, workshops sessions in fields like AI & ML, AR & VR introduced students to the latest technologies and how they are used in the modern world.
 
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -51,10 +51,10 @@ export function TimelineDemo() {
         <div>
           <p
             className="mb-8 text-xs font-serif bg-white bg-clip-text text-transparent md:text-sm dark:text-neutral-200">
-           KodeKurrent-Season One Phase-2 was a 2 day HACKATHON event conducted offline to bring together creative minds , tech enthusiasts and problem solvers under one roof . The hackathon fostered learning, networking, and hands-on experience, leaving participants inspired and empowered.
+           KodeKurrent-Season One Phase-2 was a 2-day Hackathon conducted offline to bring together creative minds , tech enthusiasts and problem solvers under one roof . The hackathon fostered learning, networking, and hands-on experience, leaving participants inspired and empowered.
           </p>
           <p
-            className="mb-8 text-xs font-normal bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent md:text-sm dark:text-neutral-200">
+            className="mb-8 text-xs font-normal bg-slate-900 bg-clip-text text-transparent md:text-sm dark:text-neutral-200">
             About Events
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -92,7 +92,7 @@ export function TimelineDemo() {
         <div>
           <p
             className="mb-4 text-xs bg-white font-serif bg-clip-text text-transparent md:text-sm dark:text-neutral-200">
-           IEEE_ SB ORIENTATION  was an introductory event which familiarised students with our organization and sparked a tech and innovation enthusiasm among them.The goal of the session was to familiarize students with the structure, benefits, and activities of the IEEE Student Branch and encourage them to become active members of this global professional community.
+           IEEE SB Orientation was an introductory event which familiarised students with our organization and sparked a tech and innovation enthusiasm among them.The goal of the session was to familiarize students with the structure, benefits, and activities of the IEEE Student Branch and encourage them to become active members of this global professional community.
           </p>
           <div className="mb-8">
             {/* <div

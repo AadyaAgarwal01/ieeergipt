@@ -33,9 +33,9 @@ export function BackgroundBeamsDemo() {
 
   const router =useRouter()
   return (
-    <div className="min-h-screen w-full rounded-md  relative flex flex-col bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 items-center justify-center antialiased">
+    <div className="min-h-screen w-full rounded-md  relative flex flex-col bg-slate-900 items-center justify-center antialiased">
       {/* <AnimatedCircles></AnimatedCircles> */}
-      <AnimatedRectangles></AnimatedRectangles>
+      {/* <AnimatedRectangles></AnimatedRectangles> Removed the animated rectangles. They were slowing down the site*/}
       <div style={{ position: 'relative', width: '60%', height: '150px' }}>
         <Image src={ieee} alt="ieee image" fill style={{ objectFit: 'contain' }} />
 
@@ -44,7 +44,7 @@ export function BackgroundBeamsDemo() {
       <h1 className={`sm:text-4xl ${poppins.className}  text-xl sm:mt-4 mt-6 font-serif text-center text-[#c5c2c2] `} >Rajiv Gandhi Institute Of Petroleum Technology</h1>
 
       <div className="flex flex-row gap-10 pt-8 z-20 ">
-        <button onClick={()=> router.push('/about_us')} className={ ` sm:w-[200px] w-[170px] h-[50px] rounded-lg sm:text-xl  cursor-pointer ${merriweather.className} text-white bg-blue-600 `}> About IEEE_RGIPT</button>
+        <button onClick={()=> router.push('/about_us')} className={ ` sm:w-[120px] w-[170px] h-[50px] rounded-lg sm:text-xl cursor-pointer ${merriweather.className} text-white bg-gradient-to-r from-indigo-500/50 via-purple-500/50 to-pink-500/50 hover:scale-104 hover:from-indigo-500/65 hover:via-purple-500/65 hover:to-pink-500/65 transition-all duration-600`}> About Us</button>
         <button onClick={()=> router.push('/Upcomingevents/details')} className={`w-[100px] ${merriweather.className} h-[50px] rounded-lg text-xl cursor-pointer bg-[white]`}> Events </button>
 
         
@@ -113,6 +113,9 @@ const AnimatedRectangles = () => {
       rotation: "-rotate-128",
     },
   ];
+
+
+  
 
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">

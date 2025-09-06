@@ -33,7 +33,7 @@ export const Timeline = ({
 
   return (
     (<div
-      className="w-full bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 dark:bg-neutral-950 font-sans md:px-10"
+      className="w-full bg-slate-900 dark:bg-neutral-950 font-sans md:px-10"
       ref={containerRef}>
       <div className="max-w-7xl mx-auto flex justify-center items-center py-10 px-4 md:px-8 lg:px-10">
         <h2 className={`sm:text-7xl text-4xl mb-2 ${tinos.className}  bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent max-w-4xl`}>
