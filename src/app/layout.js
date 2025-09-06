@@ -5,6 +5,9 @@ import { NavbarDemo } from "./landingpage/Header/page";
 import CanvasCursor from "@/components/ui/canvas-cursor-effect";
 import Footer from "./Footer/page";
 import CanvasCursorWrapper from "./handelningthedesktop/page"; // adjust path accordingly
+import SplashCursor from '@/components/ui/SplashCursor'
+
+<SplashCursor />
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,7 +35,8 @@ export default function RootLayout({ children }) {
         <NavbarDemo></NavbarDemo>
         {/* <CanvasCursor></CanvasCursor> */}
 
-        <CanvasCursorWrapper></CanvasCursorWrapper>
+        {/* <CanvasCursorWrapper></CanvasCursorWrapper> */}
+        <SplashCursor />
 
         {/* bg-gradient-to-r from-[#404371] to-[#780831] */}
 

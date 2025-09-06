@@ -8,8 +8,8 @@ export default function CardDemo({ member }) {
   };
 
   const handleLinkedInClick = () => {
-    if (member.linkedin) {
-      window.open(member.linkedin, '_blank');
+    if (member.Linkedin) {
+      window.open(member.Linkedin, '_blank');
     }
   };
 
