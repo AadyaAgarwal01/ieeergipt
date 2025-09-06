@@ -18,7 +18,7 @@ export default function CardDemo({ member }) {
       <div
         className={cn(
           "cursor-pointer overflow-hidden relative card h-96 rounded-md shadow-xl max-w-sm mx-auto backgroundImage flex flex-col justify-between p-4",
-          "bg-gradient-to-br from-slate-800 via-blue-800 to-cyan-800 bg-cover"
+          "bg-gradient-to-br from-slate-800 via-purple-800 to-slate-800 bg-cover"
         )}
         onClick={handleLinkedInClick}
       >
@@ -35,7 +35,7 @@ export default function CardDemo({ member }) {
             <p className="font-normal text-base text-gray-50 relative z-10">
               {member.Name}
             </p>
-            <p className="text-sm text-cyan-300 hover:text-cyan-200 transition-colors">
+            <p className="text-sm text-blue-300 hover:text-blue-200 transition-colors">
               LinkedIn Profile
             </p>
           </div>

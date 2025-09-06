@@ -47,7 +47,7 @@ const CodingLeaderboard = () => {
       variants={containerVariants}
       className="w-full min-h-screen mx-auto "
     >
-      <div className=" bg-gradient-to-br from-slate-900 via-blue-900 to-cyan-900 shadow-xl overflow-hidden">
+      <div className=" bg-gradient-to-br from-slate-900 via-purple-900  shadow-xl overflow-hidden">
         <div className="p-8 md:p-12">
           <motion.h1
             variants={itemVariants}
@@ -69,13 +69,13 @@ const CodingLeaderboard = () => {
           >
             <button
               onClick={() => setActiveTab("signup")}
-              className={`px-6 py-3 rounded-full font-medium transition-all ${activeTab === "signup" ? "bg-white text-cyan-600 shadow-lg" : "bg-cyan-500 text-white hover:bg-cyan-400"}`}
+              className={`px-6 py-3 rounded-full font-medium transition-all ${activeTab === "signup" ? "bg-white text-blue-600 shadow-lg" : "bg-blue-500 text-white hover:bg-blue-400"}`}
             >
               Sign Up Now
             </button>
             <button
               onClick={() => router.push('/leaderboard')}
-              className={`px-6 py-3 rounded-full font-medium transition-all ${activeTab === "leaderboard" ? "bg-white text-cyan-600 shadow-lg" : "bg-cyan-500 text-white hover:bg-cyan-400"}`}
+              className={`px-6 py-3 rounded-full font-medium transition-all ${activeTab === "leaderboard" ? "bg-white text-blue-600 shadow-lg" : "bg-blue-500 text-white hover:bg-blue-400"}`}
             >
               View Leaderboard →
             </button>
