@@ -5,7 +5,8 @@ import UnderDevelopment from "../comingsoon/page";
 export default function Gallery(){
 
     return(
-
-        <UnderDevelopment></UnderDevelopment>
+        <div className="relative">
+            <UnderDevelopment></UnderDevelopment>
+        </div>
     )
 }

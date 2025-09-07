@@ -64,7 +64,7 @@ const SeraTeamCard = ({ member }) => {
       </div>
 
       {/* Hover indicator */}
-      <div className="absolute bottom-4 right-4 w-2 h-2 bg-blue-400 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 animate-pulse"></div>
+
       
       {/* Bottom border effect */}
       <div className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-to-r from-blue-500 to-purple-500 group-hover:w-full transition-all duration-500 rounded-b-2xl"></div>

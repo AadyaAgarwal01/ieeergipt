@@ -8,6 +8,24 @@ const TeamPage = () => {
   const [organizationStructure, setOrganizationStructure] = useState(null);
   const [loading, setLoading] = useState(true);
   const [isVisible, setIsVisible] = useState(false);
+  
+  // Generate stable random values for floating particles
+  const [floatingParticles] = useState(() => {
+    const particles = [];
+    
+    // Generate particles
+    for (let i = 0; i < 80; i++) {
+      particles.push({
+        id: i,
+        left: Math.random() * 100,
+        top: Math.random() * 100,
+        delay: Math.random() * 2,
+        duration: 8 + Math.random() * 8
+      });
+    }
+    
+    return particles;
+  });
 
   useEffect(() => {
     const loadTeamData = async () => {
@@ -178,18 +196,20 @@ const TeamPage = () => {
   return (
     <div className="min-h-screen bg-slate-900 relative overflow-hidden">
       {/* Floating Particles */}
-      {[...Array(100)].map((_, i) => (
+      {floatingParticles.map((particle) => (
         <div
-          key={i}
-          className="absolute w-1 h-1 bg-white rounded-full opacity-30 animate-float"
+          key={particle.id}
+          className="absolute w-1 h-1 bg-white rounded-full opacity-20 animate-float"
           style={{
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`,
-            animationDelay: `${Math.random() * 1}s`,
-            animationDuration: `${10 + Math.random() * 10}s`
+            left: `${particle.left}%`,
+            top: `${particle.top}%`,
+            animationDelay: `${particle.delay}s`,
+            animationDuration: `${particle.duration}s`
           }}
         ></div>
       ))}
+      
+      
 
       <div className="relative z-10 container mx-auto px-6 py-20">
         {/* Header Section */}
@@ -294,6 +314,21 @@ const TeamPage = () => {
           }
         }
         
+        @keyframes float-slow {
+          0%, 100% { 
+            transform: translateY(0px) rotate(0deg) scale(1); 
+          }
+          25% { 
+            transform: translateY(-15px) rotate(90deg) scale(1.1); 
+          }
+          50% { 
+            transform: translateY(-30px) rotate(180deg) scale(0.9); 
+          }
+          75% { 
+            transform: translateY(-15px) rotate(270deg) scale(1.05); 
+          }
+        }
+        
         .animate-gradient-x {
           background-size: 200% 200%;
           animation: gradient-x 3s ease infinite;
@@ -301,6 +336,10 @@ const TeamPage = () => {
         
         .animate-float {
           animation: float linear infinite;
+        }
+        
+        .animate-float-slow {
+          animation: float-slow ease-in-out infinite;
         }
       `}</style>
     </div>

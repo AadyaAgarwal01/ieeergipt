@@ -125,6 +125,24 @@ import { useState, useEffect } from "react";
 export default function UnderDevelopment() {
   const [dots, setDots] = useState("");
   const [isVisible, setIsVisible] = useState(false);
+  
+  // Generate stable random values for floating particles
+  const [floatingParticles] = useState(() => {
+    const particles = [];
+    
+    // Generate particles
+    for (let i = 0; i < 80; i++) {
+      particles.push({
+        id: i,
+        left: Math.random() * 100,
+        top: Math.random() * 100,
+        delay: Math.random() * 2,
+        duration: 8 + Math.random() * 8
+      });
+    }
+    
+    return particles;
+  });
 
   // Animated dots effect
   useEffect(() => {
@@ -146,9 +164,24 @@ export default function UnderDevelopment() {
   //   bg-gradient-to-br pt-40 from-blue-900 via-purple-900 to-indigo-900
 
   return (
-    <div className="min-h-screen  overflow-clip w-full bg-gradient-to-br pt-40 from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center">
+    <div className="min-h-screen overflow-clip w-full bg-slate-900 via-purple-900 to-slate-900 flex items-center justify-center relative">
+      {/* Floating Particles */}
+      {floatingParticles.map((particle) => (
+        <div
+          key={particle.id}
+          className="absolute w-1 h-1 bg-white rounded-full opacity-20 animate-float"
+          style={{
+            left: `${particle.left}%`,
+            top: `${particle.top}%`,
+            animationDelay: `${particle.delay}s`,
+            animationDuration: `${particle.duration}s`
+          }}
+        ></div>
+      ))}
+      
+      
       <div
-        className={`text-center transform transition-all duration-1000 ${
+        className={`relative z-10 text-center transform transition-all duration-1000 ${
           isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
         }`}
       >
@@ -385,6 +418,41 @@ export default function UnderDevelopment() {
           <p>Expected Launch: Coming Soon | Student Branch Development Team</p>
         </div>
       </div>
+      
+      {/* Custom Animations */}
+      <style jsx>{`
+        @keyframes float {
+          0%, 100% { 
+            transform: translateY(0px) rotate(0deg); 
+          }
+          50% { 
+            transform: translateY(-20px) rotate(180deg); 
+          }
+        }
+        
+        @keyframes float-slow {
+          0%, 100% { 
+            transform: translateY(0px) rotate(0deg) scale(1); 
+          }
+          25% { 
+            transform: translateY(-15px) rotate(90deg) scale(1.1); 
+          }
+          50% { 
+            transform: translateY(-30px) rotate(180deg) scale(0.9); 
+          }
+          75% { 
+            transform: translateY(-15px) rotate(270deg) scale(1.05); 
+          }
+        }
+        
+        .animate-float {
+          animation: float linear infinite;
+        }
+        
+        .animate-float-slow {
+          animation: float-slow ease-in-out infinite;
+        }
+      `}</style>
     </div>
   );
 }
