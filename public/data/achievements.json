@@ -1,0 +1,52 @@
+{
+  "achievements": [
+    {
+      "title": "IEEE Student Branch Excellence Award",
+      "description": "Recognized for outstanding contribution to IEEE activities",
+      "src": "/ieee_logo_blue.png",
+      "ctaText": "Learn More",
+      "ctaLink": "https://www.ieee.org",
+      "content": "Our IEEE Student Branch has been recognized with the prestigious Excellence Award for our outstanding contributions to the IEEE community. This award acknowledges our commitment to fostering innovation, technical excellence, and professional development among our members. We have successfully organized numerous technical workshops, seminars, and competitions that have benefited hundreds of students and professionals in the field of engineering and technology."
+    },
+    {
+      "title": "National Technical Symposium Winner",
+      "description": "First place in the National Technical Symposium 2024",
+      "src": "/iee.jpg",
+      "ctaText": "View Details",
+      "ctaLink": "https://www.ieee.org",
+      "content": "Our team secured the first position in the National Technical Symposium 2024, competing against 50+ engineering colleges across the country. The winning project focused on sustainable energy solutions and demonstrated innovative approaches to renewable energy integration. This achievement highlights our commitment to addressing real-world challenges through engineering excellence and collaborative problem-solving."
+    },
+    {
+      "title": "Best Student Chapter Award",
+      "description": "Awarded by IEEE Region 10 for exceptional student activities",
+      "src": "/ieee-1 1.png",
+      "ctaText": "Read More",
+      "ctaLink": "https://www.ieee.org",
+      "content": "IEEE Region 10 has recognized our student chapter with the Best Student Chapter Award for our exceptional activities and initiatives. This award celebrates our comprehensive approach to student development, including technical workshops, research collaborations, industry partnerships, and community outreach programs. Our chapter has consistently demonstrated leadership in organizing events that bridge the gap between academia and industry."
+    },
+    {
+      "title": "Innovation Challenge Champions",
+      "description": "Winners of the National Innovation Challenge 2023",
+      "src": "/Vector.png",
+      "ctaText": "Explore",
+      "ctaLink": "https://www.ieee.org",
+      "content": "Our team emerged as champions in the National Innovation Challenge 2023, presenting a groundbreaking solution for smart city infrastructure. The winning innovation combined IoT technologies, machine learning algorithms, and sustainable design principles to create an intelligent traffic management system. This achievement showcases our ability to develop practical solutions that can make a real difference in urban development and quality of life."
+    },
+    {
+      "title": "Research Publication Excellence",
+      "description": "Multiple research papers published in IEEE conferences",
+      "src": "/headerlogo.png",
+      "ctaText": "View Papers",
+      "ctaLink": "https://www.ieee.org",
+      "content": "Our student members have achieved remarkable success in research publication, with multiple papers accepted and presented at prestigious IEEE conferences. These publications cover diverse areas including artificial intelligence, renewable energy systems, and cybersecurity. This achievement demonstrates our commitment to advancing knowledge in engineering and technology while providing our students with valuable research experience and academic recognition."
+    },
+    {
+      "title": "Community Impact Award",
+      "description": "Recognized for outstanding community service and outreach",
+      "src": "/iee.jpg",
+      "ctaText": "Learn More",
+      "ctaLink": "https://www.ieee.org",
+      "content": "We have been honored with the Community Impact Award for our outstanding contributions to society through various outreach programs and community service initiatives. Our activities include organizing free technical workshops for underprivileged students, conducting awareness programs about sustainable technology, and mentoring young minds in STEM fields. This award reflects our belief that engineering excellence should be coupled with social responsibility and community engagement."
+    }
+  ]
+}

@@ -16,6 +16,24 @@ const AnimatedLeaderboard = () => {
   const [loading, setLoading] = useState(true);
   const [sortBy, setSortBy] = useState('time');
   const [sortOrder, setSortOrder] = useState('asc');
+  
+  // Generate stable random values for floating particles
+  const [floatingParticles] = useState(() => {
+    const particles = [];
+    
+    // Generate particles
+    for (let i = 0; i < 80; i++) {
+      particles.push({
+        id: i,
+        left: Math.random() * 100,
+        top: Math.random() * 100,
+        delay: Math.random() * 2,
+        duration: 8 + Math.random() * 8
+      });
+    }
+    
+    return particles;
+  });
 
   // Country flag mapping
   const countryFlags = {
@@ -137,7 +155,7 @@ const AnimatedLeaderboard = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center">
+      <div className="min-h-screen bg-slate-900 flex items-center justify-center">
         <div className="text-center">
           <div className="w-16 h-16 border-4 border-purple-500/30 border-t-purple-500 rounded-full animate-spin mx-auto mb-4"></div>
           <h2 className="text-xl font-bold text-white mb-2">Loading Leaderboard</h2>
@@ -148,14 +166,30 @@ const AnimatedLeaderboard = () => {
   }
 
   return (
-    <div className="min-h-screen pt-28 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 p-6">
+    <div className="min-h-screen pt-28 bg-slate-900 p-6 relative overflow-hidden">
       {/* Subtle Background Effect */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-10"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-10"></div>
       </div>
+      
+      {/* Floating Particles */}
+      {floatingParticles.map((particle) => (
+        <div
+          key={particle.id}
+          className="absolute w-1 h-1 bg-white rounded-full opacity-20 animate-float"
+          style={{
+            left: `${particle.left}%`,
+            top: `${particle.top}%`,
+            animationDelay: `${particle.delay}s`,
+            animationDuration: `${particle.duration}s`
+          }}
+        ></div>
+      ))}
+      
+      
 
-      <div className="relative max-w-6xl mx-auto">
+      <div className="relative z-10 max-w-6xl mx-auto">
         {/* Clean Header */}
         <div className="text-center mb-12">
           <h1 className="text-6xl font-bold bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 bg-clip-text text-transparent mb-4">
@@ -331,6 +365,41 @@ const AnimatedLeaderboard = () => {
           </p>
         </div>
       </div>
+      
+      {/* Custom Animations */}
+      <style jsx>{`
+        @keyframes float {
+          0%, 100% { 
+            transform: translateY(0px) rotate(0deg); 
+          }
+          50% { 
+            transform: translateY(-20px) rotate(180deg); 
+          }
+        }
+        
+        @keyframes float-slow {
+          0%, 100% { 
+            transform: translateY(0px) rotate(0deg) scale(1); 
+          }
+          25% { 
+            transform: translateY(-15px) rotate(90deg) scale(1.1); 
+          }
+          50% { 
+            transform: translateY(-30px) rotate(180deg) scale(0.9); 
+          }
+          75% { 
+            transform: translateY(-15px) rotate(270deg) scale(1.05); 
+          }
+        }
+        
+        .animate-float {
+          animation: float linear infinite;
+        }
+        
+        .animate-float-slow {
+          animation: float-slow ease-in-out infinite;
+        }
+      `}</style>
     </div>
   );
 };

@@ -23,6 +23,24 @@ const AboutUsPage = () => {
   const [loading, setLoading] = useState(true);
   const [isVisible, setIsVisible] = useState(false);
   const [activeTimeline, setActiveTimeline] = useState(0);
+  
+  // Generate stable random values for floating particles
+  const [floatingParticles] = useState(() => {
+    const particles = [];
+    
+    // Generate particles
+    for (let i = 0; i < 80; i++) {
+      particles.push({
+        id: i,
+        left: Math.random() * 100,
+        top: Math.random() * 100,
+        delay: Math.random() * 2,
+        duration: 8 + Math.random() * 8
+      });
+    }
+    
+    return particles;
+  });
 
   useEffect(() => {
     const loadAboutData = async () => {
@@ -55,7 +73,7 @@ const AboutUsPage = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center">
+      <div className="min-h-screen bg-slate-900 flex items-center justify-center">
         <div className="text-center">
           <div className="w-16 h-16 border-4 border-purple-500/30 border-t-purple-500 rounded-full animate-spin mx-auto mb-4"></div>
           <h2 className="text-xl font-bold text-white mb-2">Loading About Us</h2>
@@ -67,7 +85,7 @@ const AboutUsPage = () => {
 
   if (!aboutData) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center">
+      <div className="min-h-screen bg-slate-900 flex items-center justify-center">
         <div className="text-center">
           <h2 className="text-xl font-bold text-white mb-2">Error Loading Content</h2>
           <p className="text-gray-400">Please try again later.</p>
@@ -77,7 +95,7 @@ const AboutUsPage = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
+    <div className="min-h-screen bg-slate-900 relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
@@ -86,18 +104,20 @@ const AboutUsPage = () => {
       </div>
 
       {/* Floating Particles */}
-      {[...Array(15)].map((_, i) => (
+      {floatingParticles.map((particle) => (
         <div
-          key={i}
-          className="absolute w-1 h-1 bg-white rounded-full opacity-30 animate-float"
+          key={particle.id}
+          className="absolute w-1 h-1 bg-white rounded-full opacity-20 animate-float"
           style={{
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`,
-            animationDelay: `${Math.random() * 10}s`,
-            animationDuration: `${10 + Math.random() * 10}s`
+            left: `${particle.left}%`,
+            top: `${particle.top}%`,
+            animationDelay: `${particle.delay}s`,
+            animationDuration: `${particle.duration}s`
           }}
         ></div>
       ))}
+      
+      
 
       <div className="relative z-10 container mx-auto px-6 py-20">
         {/* Hero Section */}
@@ -324,7 +344,7 @@ const AboutUsPage = () => {
         <div className={`transform transition-all duration-1000 delay-1300 ${
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
         }`}>
-          <div className="bg-gradient-to-r from-blue-900/50 to-purple-900/50 backdrop-blur-xl border border-blue-500/30 rounded-3xl p-8">
+          <div className="bg-gradient-to-r from-blue-900/20 to-purple-900/20 backdrop-blur-xl border border-blue-500/30 rounded-3xl p-8">
             <div className="text-center mb-8">
               <h3 className="text-3xl font-bold text-white mb-4">{aboutData.contact.title}</h3>
               <p className="text-xl text-gray-300">{aboutData.contact.description}</p>
@@ -398,6 +418,21 @@ const AboutUsPage = () => {
           }
         }
         
+        @keyframes float-slow {
+          0%, 100% { 
+            transform: translateY(0px) rotate(0deg) scale(1); 
+          }
+          25% { 
+            transform: translateY(-15px) rotate(90deg) scale(1.1); 
+          }
+          50% { 
+            transform: translateY(-30px) rotate(180deg) scale(0.9); 
+          }
+          75% { 
+            transform: translateY(-15px) rotate(270deg) scale(1.05); 
+          }
+        }
+        
         .animate-gradient-x {
           background-size: 200% 200%;
           animation: gradient-x 3s ease infinite;
@@ -405,6 +440,10 @@ const AboutUsPage = () => {
         
         .animate-float {
           animation: float linear infinite;
+        }
+        
+        .animate-float-slow {
+          animation: float-slow ease-in-out infinite;
         }
         
         .animation-delay-2000 {
