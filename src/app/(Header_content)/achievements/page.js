@@ -27,7 +27,6 @@ export default function AchievementsPage() {
     return (
       <div className="min-h-screen bg-slate-900 flex items-center justify-center relative overflow-hidden">
         {/* Loading Background Elements */}
-        {/* <BackgroundBeams /> */}
         {[...Array(30)].map((_, i) => (
           <div
             key={i}
@@ -50,9 +49,6 @@ export default function AchievementsPage() {
 
   return (
     <div className="min-h-screen bg-slate-900 relative overflow-hidden">
-      {/* Animated Background Elements */}
-      {/* <BackgroundBeams /> */}
-      
       {/* Floating Particles */}
       {[...Array(80)].map((_, i) => (
         <div
